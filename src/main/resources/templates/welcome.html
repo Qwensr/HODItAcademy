@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+</head>
+<body>
+<h2>Welcome</h2>
+<p th:if="${authenticatedUser}" th:text="'Hello, ' + ${authenticatedUser.username} + '!'"></p>
+<p th:if="${registeredUser}" th:text="'User ' + ${registeredUser.username} + ' registered successfully.'"></p>
+</body>
+</html>
