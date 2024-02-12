@@ -30,7 +30,9 @@ public class ErrorController implements org.springframework.boot.web.servlet.err
             }
         }
 
-        // Возврат кастомной страницы ошибки
+
         return "error";
     }
+
+
 }

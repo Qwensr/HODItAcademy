@@ -10,7 +10,7 @@ import org.springframework.data.annotation.Id;
 @Getter
 @Setter
 @Entity
-@Table(name = "user_table")
+@Table(name = "users")
 public class User {
     @jakarta.persistence.Id
     @Id
